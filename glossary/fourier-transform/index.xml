@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fourier Transform : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/fourier-transform/index.html</link>
+    <description>A Fourier transform is a mathematical technique that transforms data collected over time (or space) to temporal (or spatial) frequency data, with an inverse Fourier transform doing the reverse. For example, a cosine wave with frequency $\omega$ could be detected at a receiver over a recording period of 20 seconds. Taking the Fourier transform of this data will produce a frequency spectrum with two delta spikes (peaks), at $\omega$ and $-\omega$ (see the diagram below1).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/fourier-transform/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teleseisms : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/teleseisms/index.html</link>
+    <description>Teleseismic signals are those generated from sources (typically earthquakes) at large distances to the receiver. These signals are typically quite low frequency (to the point that many sensors may be unable to sense any but the largest teleseismic signals), and arrive somewhat close to vertically at the surface receiver locations (being more vertical when they are more distant).1&#xA;(Nazareth and Clayton, 2003) ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/teleseisms/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Greens Function : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/greens-function/index.html</link>
+    <description>A Green’s function is a system’s response to an impulsive point source.1 That is, it is the influence of a point source at one given location or time, on a different location or time. Mathematically, it can be found as G in:&#xA;\[ L u(x) = f(x) \] \[ u(x) = \int_\Omega G(x, y) f(y) dy \] With $u(x)$ as the response at x to source function $f(x)$ with domain $\Omega$, with y a dummy integration variable and L a linear differential operator (basically just meaning the left hand side of the first equation is some differential equation).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/greens-function/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

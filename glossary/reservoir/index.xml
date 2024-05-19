@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reservoir : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/reservoir/index.html</link>
+    <description>Reservoirs are geological features that capture water, oil, gas, or other fluid substances in their structures. These are typically areas of high porosity and low permeability, such that the fluid can accumulate in their pore spaces, but they remain predominantly solid rock. They are of significant interest to groundwater investigators and exploration geologists.1&#xA;(Zhang, 2022) ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/reservoir/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

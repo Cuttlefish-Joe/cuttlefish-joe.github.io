@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Correlation and Convolution : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/correlation-and-convolution/index.html</link>
+    <description>Correlation and Convolution are two operations that can be taken on functions, using Fourier techniques. A convolution can be written as:&#xA;\[f(t) = g(t) * h(t) = \int^\infty_{-\infty} g(\tau) h(t - \tau) d\tau \] With dummy variable $\tau$. In Fourier (frequency) space, a convolution can be written as:&#xA;\[ F(\omega) = G(\omega)H(\omega) \] A correlation on the other hand can be written as:&#xA;\[ f(t) = g(-t) * h(t) = \int^\infty_{-\infty} g(\tau + t) h(t) d\tau \] Or in Fourier space:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/correlation-and-convolution/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

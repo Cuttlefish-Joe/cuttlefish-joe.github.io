@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attenuation : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/glossary/attenuation/index.html</link>
+    <description>The attenuation of a signal is the reduction of its intensity as it travels. This may be due to absorption in the medium or deflection/scattering on the particles within the medium. The final signal then has less magnitude than when it was produced.1&#xA;(McKetty, 1998) ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/glossary/attenuation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
