@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Types of Seismic Interferometry : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/index.html</link>
+    <description>The main goal of seismic interferometry is to improve our imaging of the (reflective surfaces within the) subsurface, through increasing its resolution, letting it cover a greater spatial area, and through allowing us to determine useful properties such as wave velocity. Seismic interferometry does not generate any new data, it simply uses the seismic readings recorded at various instruments (normally geophones), and extracts information otherwise regarded as noise.1 Its main strength as a technique is that it is data-driven; it relies solely on sensor position data and their seismic readings, with no prior knowledge of the subsurface structure or seismic source timing / locations required.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2024 15:55:15 +1000</lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mathematics of Seismic Interferometry</title>
+      <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html</link>
+      <pubDate>Sun, 19 May 2024 15:55:15 +1000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html</guid>
+      <description>Info&#xD;The derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.&#xA;Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):&#xA;\[ (\nabla^2 + k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.</description>
+    </item>
+    <item>
+      <title>Deterministic and Diffuse Wavefields</title>
+      <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html</link>
+      <pubDate>Sun, 19 May 2024 15:54:36 +1000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html</guid>
+      <description>The two different scenarios where seismic interferometry can be applied to datasets are known as deterministic and diffuse wavefield interferometry, or alternatively as active and passive interferometry.&#xA;Deterministic wavefield interferometry, or active interferometry, is used on datasets generated from single, often manmade, seismic signals. The signal origins can be manually separated in time and space to ensure even distributions and adequate coverage, while maintaining diffuse wavefield conditions. This technique is typically used by exploration seismologists, with the budgetary requirements to make such surveys, and in locations where large explosions are unlikely to cause civil unrest, though some earthquake data can also be processed this way.</description>
+    </item>
+    <item>
+      <title>Interferometric Transforms</title>
+      <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/interferometric-transforms/index.html</link>
+      <pubDate>Sun, 19 May 2024 15:54:13 +1000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/interferometric-transforms/index.html</guid>
+      <description>1&#xA;VSP to SWP transforms 1&#xA;One of the more common types of seismic interferometry is transforming Vertical Seismic Profiling (VSP) data into Single Well Profiling (SWP) data, via a correlation of wave signals. This is typically a deterministic wavefield interferometric technique, using receivers set up within a borehole, which are established specifically for imaging the area. As part of this process, the wave source is redatumed to be much closer to the target within the borehole (the source is in fact also placed inside the borehole).</description>
+    </item>
+    <item>
+      <title>Travel Time Interferometry</title>
+      <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/travel-time-interferometry/index.html</link>
+      <pubDate>Sun, 19 May 2024 15:53:46 +1000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/travel-time-interferometry/index.html</guid>
+      <description>Although most seismic interferometry looks at transforming wave signals (which can be visualised as seismometer records) from one form to another, interferometry can also be used to investigate the wave travel-time between locations, using very similar principles. These travel times can be used to find the velocity distributions in the medium between locations, knowing their distances apart.&#xA;Travel-time interferometry can be done between different data profiling types as was discussed in Interferometric transforms.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.125.7">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="InfoThe derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.
+Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):
+\[ (\nabla^2 &#43; k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Mathematics of Seismic Interferometry : Seismic Interferometry">
+    <meta name="twitter:description" content="InfoThe derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.
+Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):
+\[ (\nabla^2 &#43; k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.">
+    <meta property="og:url" content="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html">
+    <meta property="og:site_name" content="Seismic Interferometry">
+    <meta property="og:title" content="The Mathematics of Seismic Interferometry : Seismic Interferometry">
+    <meta property="og:description" content="InfoThe derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.
+Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):
+\[ (\nabla^2 &#43; k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="The Mathematics of Seismic Interferometry : Seismic Interferometry">
+    <meta itemprop="description" content="InfoThe derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.
+Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):
+\[ (\nabla^2 &#43; k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.">
+    <meta itemprop="datePublished" content="2024-05-19T15:55:15+10:00">
+    <meta itemprop="dateModified" content="2024-05-19T15:55:15+10:00">
+    <meta itemprop="wordCount" content="1219">
+    <title>The Mathematics of Seismic Interferometry : Seismic Interferometry</title>
+    <link href="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.xml" rel="alternate" type="application/rss+xml" title="The Mathematics of Seismic Interferometry : Seismic Interferometry">
+    <link href="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.print.html" rel="alternate" type="text/html" title="The Mathematics of Seismic Interferometry : Seismic Interferometry">
+    <link href="/images/favicon.ico?1716122395" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1716122395" rel="stylesheet">
+    <link href="/css/auto-complete.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1716122395" rel="stylesheet">
+    <link href="/css/fonts.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1716122395" rel="stylesheet">
+    <link href="/css/theme-blue.css?1716122395" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1716122395" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1716122395" rel="stylesheet">
+    <link href="/css/print.css?1716122395" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1716122395"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/cuttlefish-joe.github.io';
+      window.index_js_url="/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#establishing-the-behaviour-of-greens-function">Establishing the behaviour of Green&rsquo;s Function</a></li>
+    <li><a href="#deriving-expressions-for-seismic-interferometric-correlation-and-convolution">Deriving expressions for seismic interferometric correlation and convolution</a></li>
+    <li><a href="#signal-migration">Signal migration</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">EMSC3033 Major Project: Seismic Interferometry</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/types-of-seismic-interferometry/index.html"><span itemprop="name">Types of Seismic Interferometry</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">The Mathematics of Seismic Interferometry</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/types-of-seismic-interferometry/index.html" title="Types of Seismic Interferometry (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html" title="Deterministic and Diffuse Wavefields (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="the-mathematics-of-seismic-interferometry">The Mathematics of Seismic Interferometry</h1>
+
+
+<div class="box notices cstyle info">
+  <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Info</div>
+  <div class="box-content">
+
+<p><em>The derivations in this page of the website are taken from (<strong>Schuster, 2009</strong>). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.</em></p>
+</div>
+</div>
+<h2 id="establishing-the-behaviour-of-greens-function">Establishing the behaviour of Green&rsquo;s Function</h2>
+<p>In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green&rsquo;s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):</p>
+\[ (\nabla^2 + k^2)G(g|s) = -\delta(s-g) \]
+<p>This has two independent solutions: the causal outgoing Green&rsquo;s function $G(g|s)$, and the acausal/time-reversed incoming Green&rsquo;s function $G(g|s)^{*}$. For a homogeneous medium, with a harmonically oscillating point source signal origin, Green&rsquo;s function can take the form:</p>
+\[ G(g|s) = \frac{1}{4\pi} \frac{e^{ikr}}{r} , r = | g - s | \]
+<p>The high-frequency asymptotic for a smooth velocity distribution version of this is:</p>
+\[ G(g|s) = A(g,s)e^{i\omega\tau_{gs}} \]
+<p>Where A accounts for spreading effects and $\tau$ is the wave travel-time, both of which can be solved for.</p>
+<h2 id="deriving-expressions-for-seismic-interferometric-correlation-and-convolution">Deriving expressions for seismic interferometric correlation and convolution</h2>
+<p>Using the assumptions established above, the governing Helmholtz equations for convolution and correlation are:</p>
+\[ (\nabla^2 + k^2)G(x|A) = -\delta(x - A) ; (\nabla^2 + k_0^2)G_0(x|B) = -\delta(x-B) \]
+\[ (\nabla^2 + k^2)G(x|A) = -\delta(x - A) ; (\nabla^2 + k_0^2)G(x|B)^{*} = -\delta(x-B) \]
+<p>Respectively, where $k_0$ is the value of k for $v_0$, A and B are interior point sources to boundary S, and x may be interior or on the boundary. Multiplying both expressions of each set by each other and subtracting the second Green&rsquo;s functions produces:</p>
+\[ G_0(x|B)\nabla^2G(x|A) - G(x|A)\nabla^2G_0(x|B) = G(x|A)\delta(x-B) - G_0(x|B)\delta(x-A) \]
+\[ G(x|B)^{*} \nabla^2G(x|A) - G(x|A) \nabla^2G(x|B)^{*} = G(x|A)\delta(x-B) - G(x|B)^{*}\delta(x-A) \]
+<p>Using product rule:</p>
+\[ G(x|A)\nabla^2G_0(x|B) = \nabla \cdot [G(x|A)\nabla G_0(x|B)] - \nabla G(x|A) \cdot \nabla G_0(x|B) \]
+\[ G_0(x|B)\nabla^2G(x|A) = \nabla \cdot [G_0(x|B)\nabla G(x|A)] - \nabla G_0(x|B) \cdot \nabla G(x|A) \]
+\[ G(x|A)\nabla^2G(x|B)^{*} = \nabla \cdot [G(x|A)\nabla G(x|B)^{*}] - \nabla G(x|A) \cdot \nabla G(x|B)^{*} \]
+\[ G(x|B)^{*} \nabla^2G(x|A) = \nabla \cdot [G(x|B)^{*}\nabla G(x|A)] - \nabla G(x|B)^{*} \cdot \nabla G(x|A) \]
+<p>Integrating these expressions over the volume enclosed by S (using Gauss&rsquo; theorem):</p>
+\[ G(B|A) - G_0(A|B) = \int_s [G_0(x|B) \frac{\partial G(x|A)}{\partial n_x} - G(x|A)\frac{\partial G_0(x|B)}{\partial n_x}]d^2 x \]
+\[ G(B|A) - G(A|B)* = \int_s [G(x|B)^{*} \frac{\partial G(x|A)}{\partial n_x} - G(x|A)\frac{\partial G(x|B)^{*}}{\partial n_x}]d^2 x \]
+<p>With $\frac{\partial G_0(x|B)}{\partial n_x} = \hat{n} \cdot \nabla G_0(x|B)$ and $\frac{\partial G(x|B)^{*}}{\partial n_x} = \hat{n} \cdot \nabla G(x|B)^{*}$ for B not located on S, respectively.</p>
+<p>The seismic convolution expression is called as such as it is composed of spectral products, which are convolutions in the time domain. This leads to the spectral phases summing, creating a larger overall travel-time, meaning convolution is useful to predict the later reflections of waves from their earlier data. This expression is the origin for many forward modelling processes, with notably the Born forward modelling process being derived from the second step of the process, to find:</p>
+\[ \delta G(B|A) \approx \omega^2 \int_V G_0(B|x) 2sl_0(x)\delta sl(x) G_0(x|A) d^3 x \]
+<p>Where $sl(x) = \frac{1}{v(x)}$ as the slowness field.</p>
+<p>The correlation expression is instead composed of an integration of spectrums being multiplied by spectrum complex conjugates, which become correlations in the time domain. This leads to the spectral phases subtracting, creating a smaller overall travel-time, and allowing correlation to predict the earlier reflections of waves from their later data (redatuming the data to be closer to the targeted source). The left-hand-side of the final expression can also be written as $2i Im(G(B|A)) = G(B|A) - G(B|A)^{*}$, such that $g(B,t|A,0)$ (the causal Green&rsquo;s function defining the modelled propagation) can be found through an inverse Fourier transform. Applying the far field approximation, using the form of Green&rsquo;s function given earlier, this relation can be further expressed as:</p>
+\[ 2i Im(G(B|A)) \approx 2ik \int_{s_0} G(x|B)^{*} G(x|A) d^2 x \]
+<p>An expression key to time-reversed acoustics, daylight imaging (see applications), and diffuse wavefield modelling in particular.  Its physical nature can be better understood by applying a stationary phase integration, such that only the paths close to the path of least time contribute to the final expression. For $G(x|A) = e^{i \omega \tau_{ A y0 x}}$ as the path $x \rightarrow y0 \rightarrow A$ and $G(x|B) = e^{i \omega \tau_{x B}}$ as the path $x \rightarrow B$ (see image),  this produces the relation:</p>
+\[ Im(G(B|A)) \approx \alpha ke^{i\omega \tau_{ A y0 B}} \]
+<p>Which represents the path $B \rightarrow y0 \rightarrow A$, the third frame of the image. Here, $ \alpha = e^{i \pi /4} \sqrt{ \frac{2\pi}{\omega |\phi(x^{*})^{"}|} } $ is an asymptotic coefficient.</p>
+<p><a href="#R-image-11a1add0faeaed85398134871b5c3cc6" class="lightbox-link"><img alt="diagram" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/diagram.png?width=45.75rem" style=" height: auto; width: 45.75rem;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-11a1add0faeaed85398134871b5c3cc6"><img alt="diagram" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/diagram.png?width=45.75rem"></a></p>
+<h2 id="signal-migration">Signal migration</h2>
+<p>In order to find the distribution of reflective surfaces in an investigated area, the collected seismic signals need to be inverted; however doing this directly is computationally expensive. An approximate version of this, known as migration, can be performed using the Born modelling equation (see above). This relocates the arrival of reflected signals back to the locations where they reflected. That equation can be rewritten as:</p>
+\[  D(g|s) \approx \omega^2 \int_V G_0(g|x)m(x)G_0(x|s)d^3 x \]
+<p>Where $D(g|s)$ is the raw reflected data in the frequency domain, and $m(x) = 2sl(x)\delta s(x)$ is the weighted reflectivity distribution that we want to find. This can be condensed to $d = Lm$, where $d = D(g|s)$, $m = m(x)$ and L represents the rest of the expression, known as the Born forward modelling operator. By discretising the space being investigated into N cells, this expression can be written as:</p>
+\[ d_i = \sum^N_{j=1} L_{ij}m_{j} \]
+<p>Where i is over the coordinates for s and g, and j is over the coordinates of the reflective locations. This system of equations is typically overdetermined (many more equations than unknown variables) and inconsistent (the equations do not all agree precisely), so a least squares solution can be found to solve the  system, minimising $\epsilon$ for:</p>
+\[ \epsilon = \frac{1}{2} \sum_j r_j^{*} r_j \]
+<p>Where $r_j$ is the residual component of the jth equation. The ideal system model can be found by setting the derivative of $\epsilon$ with respect to the unknown model parameters m to zero. This produces:</p>
+\[ \frac{\partial \epsilon}{\partial m_n} = \sum_j Real(L_{jn}^{*} (Lm - d)_j ) = 0 \]
+<p>For the real parameters. Combining this with the similar expression for the imaginary model parameters, and using the approximation of (<em>Claerbout and Abma, 1992</em>) that $L^{*}L$ is diagonally dominant over $L^{*}d$, produces:</p>
+\[ m_i \approx \frac{ (L^{*} d)_i}{ (L^{*}L)_{ii}} \]
+<p>An approximation that holds for wide and dense sampling of sources and receivers. Normalising, this produces:</p>
+\[ m_j = \sum_{i=1}^M L_{ij}^{*}d_i \]
+<p>So that the subsurface reflective locations can be estimated using the reflected data in the frequency domain and the (adjoint) of the forward modelling operator. This is the most important formula of exploration seismic imaging, and can be fully expanded as:</p>
+\[ m(x) = \int^\infty_{-\infty} \int_g \int_s \omega^2 (G_0(g|x)^{*} D(g|s))(G_0(x|S))^{*} d^2sd^2gd\omega \]
+<p>Where the integration over $\omega$ stacks together the images determined from different frequencies.</p>
+<p>There are two main interferometric imaging procedures: to redatum raw data to a location closer to the imaged area, thus reducing the model-associated errors of standard seismic imaging through the smaller distance; and to use collected data wholly or partially in place of the Green&rsquo;s functions in the expression above. Both provide (to different extents) the benefits discussed on this website, and the use of either technique will be situation-dependent.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.3125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -0.10rem;
+              margin-inline-end: .5rem;
+              width: 0.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -5.47rem;
+                margin-inline-end: 0.5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="/index.html">
+            <svg>
+              <img src="/geologo.png" alt="Description of the image">
+            </svg>
+          </a>
+        </div>
+
+        <search><form action="/search.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1716122395" defer></script>
+        <script src="/js/search.js?1716122395" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/what-is-interferometry/index.html" class=""><a class="padding" href="/what-is-interferometry/index.html">What Is Interferometry?</a><ul id="R-subsections-4d39d0e44eb54ac8e651953d79a35edb" class="morespace collapsible-menu">
+          <li data-nav-id="/what-is-interferometry/seismic-vs-optical-interferometry/index.html" class=""><a class="padding" href="/what-is-interferometry/seismic-vs-optical-interferometry/index.html">Overview</a></li>
+          <li data-nav-id="/what-is-interferometry/practical-example/index.html" class=""><a class="padding" href="/what-is-interferometry/practical-example/index.html">Practical Example</a></li>
+          <li data-nav-id="/what-is-interferometry/overview/index.html" class=""><a class="padding" href="/what-is-interferometry/overview/index.html">Seismic vs Optical Interferometry</a></li></ul></li>
+          <li data-nav-id="/types-of-seismic-interferometry/index.html" class="parent "><a class="padding" href="/types-of-seismic-interferometry/index.html">Types of Seismic Interferometry</a><ul id="R-subsections-dc97b204e8d2e5e9436e7d2fa9cd1737" class="morespace collapsible-menu">
+          <li data-nav-id="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html" class="active"><a class="padding" href="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html">The Mathematics of Seismic Interferometry</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html">Deterministic and Diffuse Wavefields</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/interferometric-transforms/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/interferometric-transforms/index.html">Interferometric Transforms</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/travel-time-interferometry/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/travel-time-interferometry/index.html">Travel Time Interferometry</a></li></ul></li>
+          <li data-nav-id="/applicas/index.html" class=""><a class="padding" href="/applicas/index.html">Applications</a><ul id="R-subsections-84064cd585b035ecf7120e3ffb99fe91" class="morespace collapsible-menu">
+          <li data-nav-id="/applicas/overview/index.html" class=""><a class="padding" href="/applicas/overview/index.html">Overview</a></li>
+          <li data-nav-id="/applicas/geophysical/index.html" class=""><a class="padding" href="/applicas/geophysical/index.html">Geophysical Applications</a></li>
+          <li data-nav-id="/applicas/physics-and-engineering/index.html" class=""><a class="padding" href="/applicas/physics-and-engineering/index.html">Physics and Engineering Applications</a></li>
+          <li data-nav-id="/applicas/future-directions/index.html" class=""><a class="padding" href="/applicas/future-directions/index.html">Future Directions</a></li></ul></li>
+          <li data-nav-id="/glossary/index.html" class=""><a class="padding" href="/glossary/index.html">Glossary</a><ul id="R-subsections-482c4228ad8b06bddbde31b63b255f07" class="morespace collapsible-menu">
+          <li data-nav-id="/glossary/attenuation/index.html" class=""><a class="padding" href="/glossary/attenuation/index.html">Attenuation</a></li>
+          <li data-nav-id="/glossary/borehole/index.html" class=""><a class="padding" href="/glossary/borehole/index.html">Borehole</a></li>
+          <li data-nav-id="/glossary/correlation-and-convolution/index.html" class=""><a class="padding" href="/glossary/correlation-and-convolution/index.html">Correlation and Convolution</a></li>
+          <li data-nav-id="/glossary/fourier-transform/index.html" class=""><a class="padding" href="/glossary/fourier-transform/index.html">Fourier Transform</a></li>
+          <li data-nav-id="/glossary/geophone/index.html" class=""><a class="padding" href="/glossary/geophone/index.html">Geophone</a></li>
+          <li data-nav-id="/glossary/greens-function/index.html" class=""><a class="padding" href="/glossary/greens-function/index.html">Greens Function</a></li>
+          <li data-nav-id="/glossary/redatum/index.html" class=""><a class="padding" href="/glossary/redatum/index.html">Redatum</a></li>
+          <li data-nav-id="/glossary/reservoir/index.html" class=""><a class="padding" href="/glossary/reservoir/index.html">Reservoir</a></li>
+          <li data-nav-id="/glossary/teleseisms/index.html" class=""><a class="padding" href="/glossary/teleseisms/index.html">Teleseisms</a></li></ul></li>
+          <li data-nav-id="/references-and-further-reading/index.html" class=""><a class="padding" href="/references-and-further-reading/index.html">References and Further Reading</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1716122395" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1716122395" defer></script>
+    <script>
+      function useMathJax( config ){
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          tex: {
+            inlineMath:  [['\\(', '\\)'], ['$',  '$']],  
+            displayMath: [['\\[', '\\]'], ['$$', '$$']], 
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="/js/mathjax/tex-mml-chtml.js?1716122395"></script>
+    <script src="/js/theme.js?1716122395" defer></script>
+  </body>
+</html>

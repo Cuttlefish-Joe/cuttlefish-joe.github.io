@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interferometric Transforms : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/interferometric-transforms/index.html</link>
+    <description>1&#xA;VSP to SWP transforms 1&#xA;One of the more common types of seismic interferometry is transforming Vertical Seismic Profiling (VSP) data into Single Well Profiling (SWP) data, via a correlation of wave signals. This is typically a deterministic wavefield interferometric technique, using receivers set up within a borehole, which are established specifically for imaging the area. As part of this process, the wave source is redatumed to be much closer to the target within the borehole (the source is in fact also placed inside the borehole).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/interferometric-transforms/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

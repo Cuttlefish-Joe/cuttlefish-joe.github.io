@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Mathematics of Seismic Interferometry : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html</link>
+    <description>Info&#xD;The derivations in this page of the website are taken from (Schuster, 2009). s refers to the source location, g the receiver location, and A and B refer to the locations of two receivers.&#xA;Establishing the behaviour of Green’s Function In the frequency domain, for an arbitrary linear acoustic medium of constant density, Green’s function will satisfy the Helmholtz equation (differentiation with respect to coordinates of g):&#xA;\[ (\nabla^2 + k^2)G(g|s) = -\delta(s-g) \] This has two independent solutions: the causal outgoing Green’s function $G(g|s)$, and the acausal/time-reversed incoming Green’s function $G(g|s)^{*}$.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

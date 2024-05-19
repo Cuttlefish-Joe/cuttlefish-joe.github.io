@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel Time Interferometry : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/travel-time-interferometry/index.html</link>
+    <description>Although most seismic interferometry looks at transforming wave signals (which can be visualised as seismometer records) from one form to another, interferometry can also be used to investigate the wave travel-time between locations, using very similar principles. These travel times can be used to find the velocity distributions in the medium between locations, knowing their distances apart.&#xA;Travel-time interferometry can be done between different data profiling types as was discussed in Interferometric transforms.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/travel-time-interferometry/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

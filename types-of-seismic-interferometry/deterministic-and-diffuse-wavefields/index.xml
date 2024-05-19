@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deterministic and Diffuse Wavefields : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html</link>
+    <description>The two different scenarios where seismic interferometry can be applied to datasets are known as deterministic and diffuse wavefield interferometry, or alternatively as active and passive interferometry.&#xA;Deterministic wavefield interferometry, or active interferometry, is used on datasets generated from single, often manmade, seismic signals. The signal origins can be manually separated in time and space to ensure even distributions and adequate coverage, while maintaining diffuse wavefield conditions. This technique is typically used by exploration seismologists, with the budgetary requirements to make such surveys, and in locations where large explosions are unlikely to cause civil unrest, though some earthquake data can also be processed this way.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
