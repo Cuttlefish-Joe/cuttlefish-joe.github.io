@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/applicas/overview/index.html</link>
+    <description>Seismic interferometry as a technique has an array of applications within geophysics. It is also deeply interlinked with other fields of study, including physics and engineering. In fact, the principles developed theoretically as seismic interferometry (then referring specifically to passive source methods, known as daylight scattering) saw their first successful applications in the field of helioseismology, investigating the internal structure of the sun.1&#xA;(Rickett and Claerbout, 1999) ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/applicas/overview/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

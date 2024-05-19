@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics and Engineering Applications : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/applicas/physics-and-engineering/index.html</link>
+    <description>Physics applications When the principles of seismic interferometry are used by physicists, they tend to be known as “time-reversed acoustics” (noting that seismic waves are technically very similar to acoustic waves; both techniques are also analogous but more distantly connected to optical interferometry). These techniques were developed separately in parallel initially, only being widely recognised as connected (though not exactly identical) in the 2000s. Time-reversed acoustics studies were able to progress differently to seismic interferometry studies, being able to demonstrate stable time-reversal of signals while geophysical results were still inconclusive on the process’s stability1 Much of the early theory of this technique was pioneered by Mathias Fink.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/applicas/physics-and-engineering/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

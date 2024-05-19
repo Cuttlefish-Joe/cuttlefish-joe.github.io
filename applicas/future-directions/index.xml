@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Future Directions : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/applicas/future-directions/index.html</link>
+    <description>Info&#xD;This page consists of a summary of four different problems that seismic interferometry has recently begun to be applied to. There are many potential directions for the future development of seismic interferometry, this webpage is nowhere near comprehensive on the topic.&#xA;One recently developed application of seismic interferometry has been mapping the height of the bedrock/soil interface, and wave velocity of soils.1 Knowing the height of this interface is beneficial for underground project site investigations, and is required in reasonably high accuracy and resolution.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/applicas/future-directions/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

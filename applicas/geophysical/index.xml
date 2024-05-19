@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geophysical Applications : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/applicas/geophysical/index.html</link>
+    <description>Exploration applications The main goal of seismic interferometry is creating images of the subsurface structure and properties in an investigated area. This is plainly of interest to exploration geophysicists, who need to identify valuable reservoirs and monitor them as development proceeds. Seismic interferometry can be used for estimating appropriate locations for resources1, as well as monitoring them during resource extraction.2 Seismic interferometry can also be used during the extraction stages, with the waves produced by a tunnel-boring machine processed through the technique in order to improve fracture predictions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/applicas/geophysical/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
