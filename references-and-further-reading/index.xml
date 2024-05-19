@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>References and Further Reading : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/references-and-further-reading/index.html</link>
+    <description>To read further about the theory behind seismic interferometry, including more detailed derivations and specific equations for the different interferometric transforms, use Seismic Interferometry by Gerard T Schuster, published 2009 (full reference provided below). To read further about the key discoveries made while developing the theory of seismic interferometry, including the papers laying the foundations of the field, use Seismic Interferometry: History and Present Status by Kees Wapenaar, Deyan Draganov, and Johan O A Robertsson, published 2008 (full reference also provided below).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://cuttlefish-joe.github.io/references-and-further-reading/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
