@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.125.7">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="This website was created for the major project component of the Australian National University course EMSC3033: Applied Geophysics in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.
+The “What is interferometry” section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry">
+    <meta name="twitter:description" content="This website was created for the major project component of the Australian National University course EMSC3033: Applied Geophysics in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.
+The “What is interferometry” section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.">
+    <meta property="og:url" content="https://cuttlefish-joe.github.io/index.html">
+    <meta property="og:site_name" content="Seismic Interferometry">
+    <meta property="og:title" content="EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry">
+    <meta property="og:description" content="This website was created for the major project component of the Australian National University course EMSC3033: Applied Geophysics in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.
+The “What is interferometry” section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry">
+    <meta itemprop="description" content="This website was created for the major project component of the Australian National University course EMSC3033: Applied Geophysics in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.
+The “What is interferometry” section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.">
+    <meta itemprop="dateModified" content="2024-05-19T16:30:28+10:00">
+    <meta itemprop="wordCount" content="186">
+    <title>EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry</title>
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry">
+    <link href="/images/favicon.ico?1716122395" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1716122395" rel="stylesheet">
+    <link href="/css/auto-complete.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1716122395" rel="stylesheet">
+    <link href="/css/fonts.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1716122395" rel="stylesheet">
+    <link href="/css/theme-blue.css?1716122395" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1716122395" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1716122395" rel="stylesheet">
+    <link href="/css/print.css?1716122395" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1716122395"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='.';
+      window.relearn.relBaseUri='.';
+      window.relearn.absBaseUri='https:\/\/cuttlefish-joe.github.io';
+      window.index_js_url="/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">EMSC3033 Major Project: Seismic Interferometry</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/what-is-interferometry/index.html" title="What Is Interferometry? (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="home">
+            <header class="headline">
+            </header>
+
+<h1 id="emsc3033-major-project-seismic-interferometry">EMSC3033 Major Project: Seismic Interferometry</h1>
+
+<p>This website was created for the major project component of the Australian National University course <a href="https://programsandcourses.anu.edu.au/2024/course/EMSC3033" rel="external" target="_blank">EMSC3033: Applied Geophysics</a> in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.</p>
+<hr>
+<ul>
+<li>The &ldquo;What is interferometry&rdquo; section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.</li>
+<li>The &ldquo;Types of seismic interferometry&rdquo; section covers the some of the different forms the technique takes within the field of seismic interferometry, with a particular focus towards applications-based forms.</li>
+<li>The &ldquo;Applications&rdquo; sections covers some of the ways in which this geophysical technique is applied in different fields.</li>
+<li>The glossary contains definitions for some of the important terminology used in this project that may be unfamiliar to an earth science or physics student, without being specific to the techniques being discussed</li>
+</ul>
+<hr>
+<p><a href="#R-image-67709137b595df94cc0a43a7dce425d8" class="lightbox-link"><img alt="academichonesty" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/sheetie.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-67709137b595df94cc0a43a7dce425d8"><img alt="academichonesty" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/sheetie.png"></a></p>
+<p>This website was created by Alex Vickery (u7083215) in Markdown using the <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html" rel="external" target="_blank">Hugo Relearn theme</a> in April and May 2024. Site published (19/05/2024).  Questions and website feedback can be addressed to: <a href="mailto:alex.vickery@anu.edu.au?subject=Seismic%20Interferometry%20Website" rel="external" target="_blank">alex.vickery@anu.edu.au</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.3125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -0.10rem;
+              margin-inline-end: .5rem;
+              width: 0.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -5.47rem;
+                margin-inline-end: 0.5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="/index.html">
+            <svg>
+              <img src="/geologo.png" alt="Description of the image">
+            </svg>
+          </a>
+        </div>
+
+        <search><form action="/search.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1716122395" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1716122395" defer></script>
+        <script src="/js/search.js?1716122395" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/what-is-interferometry/index.html" class=""><a class="padding" href="/what-is-interferometry/index.html">What Is Interferometry?</a><ul id="R-subsections-4d39d0e44eb54ac8e651953d79a35edb" class="morespace collapsible-menu">
+          <li data-nav-id="/what-is-interferometry/seismic-vs-optical-interferometry/index.html" class=""><a class="padding" href="/what-is-interferometry/seismic-vs-optical-interferometry/index.html">Overview</a></li>
+          <li data-nav-id="/what-is-interferometry/practical-example/index.html" class=""><a class="padding" href="/what-is-interferometry/practical-example/index.html">Practical Example</a></li>
+          <li data-nav-id="/what-is-interferometry/overview/index.html" class=""><a class="padding" href="/what-is-interferometry/overview/index.html">Seismic vs Optical Interferometry</a></li></ul></li>
+          <li data-nav-id="/types-of-seismic-interferometry/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/index.html">Types of Seismic Interferometry</a><ul id="R-subsections-dc97b204e8d2e5e9436e7d2fa9cd1737" class="morespace collapsible-menu">
+          <li data-nav-id="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/the-mathematics-of-seismic-interferometry/index.html">The Mathematics of Seismic Interferometry</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/deterministic-and-diffuse-wavefields/index.html">Deterministic and Diffuse Wavefields</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/interferometric-transforms/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/interferometric-transforms/index.html">Interferometric Transforms</a></li>
+          <li data-nav-id="/types-of-seismic-interferometry/travel-time-interferometry/index.html" class=""><a class="padding" href="/types-of-seismic-interferometry/travel-time-interferometry/index.html">Travel Time Interferometry</a></li></ul></li>
+          <li data-nav-id="/applicas/index.html" class=""><a class="padding" href="/applicas/index.html">Applications</a><ul id="R-subsections-84064cd585b035ecf7120e3ffb99fe91" class="morespace collapsible-menu">
+          <li data-nav-id="/applicas/overview/index.html" class=""><a class="padding" href="/applicas/overview/index.html">Overview</a></li>
+          <li data-nav-id="/applicas/geophysical/index.html" class=""><a class="padding" href="/applicas/geophysical/index.html">Geophysical Applications</a></li>
+          <li data-nav-id="/applicas/physics-and-engineering/index.html" class=""><a class="padding" href="/applicas/physics-and-engineering/index.html">Physics and Engineering Applications</a></li>
+          <li data-nav-id="/applicas/future-directions/index.html" class=""><a class="padding" href="/applicas/future-directions/index.html">Future Directions</a></li></ul></li>
+          <li data-nav-id="/glossary/index.html" class=""><a class="padding" href="/glossary/index.html">Glossary</a><ul id="R-subsections-482c4228ad8b06bddbde31b63b255f07" class="morespace collapsible-menu">
+          <li data-nav-id="/glossary/attenuation/index.html" class=""><a class="padding" href="/glossary/attenuation/index.html">Attenuation</a></li>
+          <li data-nav-id="/glossary/borehole/index.html" class=""><a class="padding" href="/glossary/borehole/index.html">Borehole</a></li>
+          <li data-nav-id="/glossary/correlation-and-convolution/index.html" class=""><a class="padding" href="/glossary/correlation-and-convolution/index.html">Correlation and Convolution</a></li>
+          <li data-nav-id="/glossary/fourier-transform/index.html" class=""><a class="padding" href="/glossary/fourier-transform/index.html">Fourier Transform</a></li>
+          <li data-nav-id="/glossary/geophone/index.html" class=""><a class="padding" href="/glossary/geophone/index.html">Geophone</a></li>
+          <li data-nav-id="/glossary/greens-function/index.html" class=""><a class="padding" href="/glossary/greens-function/index.html">Greens Function</a></li>
+          <li data-nav-id="/glossary/redatum/index.html" class=""><a class="padding" href="/glossary/redatum/index.html">Redatum</a></li>
+          <li data-nav-id="/glossary/reservoir/index.html" class=""><a class="padding" href="/glossary/reservoir/index.html">Reservoir</a></li>
+          <li data-nav-id="/glossary/teleseisms/index.html" class=""><a class="padding" href="/glossary/teleseisms/index.html">Teleseisms</a></li></ul></li>
+          <li data-nav-id="/references-and-further-reading/index.html" class=""><a class="padding" href="/references-and-further-reading/index.html">References and Further Reading</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1716122395" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1716122395" defer></script>
+    <script src="/js/theme.js?1716122395" defer></script>
+  </body>
+</html>

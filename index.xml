@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EMSC3033 Major Project: Seismic Interferometry : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/index.html</link>
+    <description>This website was created for the major project component of the Australian National University course EMSC3033: Applied Geophysics in 2024. It is the end-product of an investigation into seismic interferometry in the context of applied geophysics, and is targeted towards an audience of undergraduate earth science and physics students.&#xA;The “What is interferometry” section covers the basics of interferometry, and details a hands-on experiment with building an (optical) interferometric device to demonstrate these principles.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2024 16:30:28 +1000</lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Interferometry?</title>
+      <link>https://cuttlefish-joe.github.io/what-is-interferometry/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/what-is-interferometry/index.html</guid>
+      <description>This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.</description>
+    </item>
+    <item>
+      <title>Types of Seismic Interferometry</title>
+      <link>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/types-of-seismic-interferometry/index.html</guid>
+      <description>The main goal of seismic interferometry is to improve our imaging of the (reflective surfaces within the) subsurface, through increasing its resolution, letting it cover a greater spatial area, and through allowing us to determine useful properties such as wave velocity. Seismic interferometry does not generate any new data, it simply uses the seismic readings recorded at various instruments (normally geophones), and extracts information otherwise regarded as noise.1 Its main strength as a technique is that it is data-driven; it relies solely on sensor position data and their seismic readings, with no prior knowledge of the subsurface structure or seismic source timing / locations required.</description>
+    </item>
+    <item>
+      <title>Applications</title>
+      <link>https://cuttlefish-joe.github.io/applicas/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/applicas/index.html</guid>
+      <description>This section contains an overview of the ways that seismic interferometry has been applied in various geophysical fields. It also summarises how similar techniques developed in parallel have been applied in related fields, such as ultrasonic physics and civil engineering. Some of the applications currently in development are also given an overview.</description>
+    </item>
+    <item>
+      <title>Glossary</title>
+      <link>https://cuttlefish-joe.github.io/glossary/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/glossary/index.html</guid>
+      <description>This glossary contains definitions for terms that may be commonly understood by students from either an earth science or a physics background, but that may not be widely used in both. To request any other words be added to this glossary, email me here.</description>
+    </item>
+    <item>
+      <title>References and Further Reading</title>
+      <link>https://cuttlefish-joe.github.io/references-and-further-reading/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cuttlefish-joe.github.io/references-and-further-reading/index.html</guid>
+      <description>To read further about the theory behind seismic interferometry, including more detailed derivations and specific equations for the different interferometric transforms, use Seismic Interferometry by Gerard T Schuster, published 2009 (full reference provided below). To read further about the key discoveries made while developing the theory of seismic interferometry, including the papers laying the foundations of the field, use Seismic Interferometry: History and Present Status by Kees Wapenaar, Deyan Draganov, and Johan O A Robertsson, published 2008 (full reference also provided below).</description>
+    </item>
+  </channel>
+</rss>
