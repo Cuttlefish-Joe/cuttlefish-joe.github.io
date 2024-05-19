@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practical Example : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/what-is-interferometry/practical-example/index.html</link>
+    <description>Info&#xD;This practical example aims to highlight how interfering two wave signals can amplify information regarding the difference in paths between the two signals. It uses the easy visualisation opportunities provided by working with visible light to demonstrate this. Here, the information is the difference in path length, but this does not have to be the case for interferometry, as discussed in the general overview.&#xA;Michelson interferometers To understand the physical principles behind interferometry, waves must be recognised as objects with phases attached to them.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/what-is-interferometry/practical-example/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.125.7">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="What Is Interferometry? : Seismic Interferometry">
+    <meta name="twitter:description" content="This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.">
+    <meta property="og:url" content="https://cuttlefish-joe.github.io/what-is-interferometry/index.html">
+    <meta property="og:site_name" content="Seismic Interferometry">
+    <meta property="og:title" content="What Is Interferometry? : Seismic Interferometry">
+    <meta property="og:description" content="This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="What Is Interferometry? : Seismic Interferometry">
+    <meta itemprop="description" content="This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.">
+    <meta itemprop="dateModified" content="2024-05-14T12:59:16+10:00">
+    <meta itemprop="wordCount" content="44">
+    <title>What Is Interferometry? : Seismic Interferometry</title>
+    <link href="https://cuttlefish-joe.github.io/what-is-interferometry/index.html" rel="canonical" type="text/html" title="What Is Interferometry? : Seismic Interferometry">
+    <link href="/what-is-interferometry/index.xml" rel="alternate" type="application/rss+xml" title="What Is Interferometry? : Seismic Interferometry">
+    <link href="/images/favicon.ico?1716122395" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1716122395" rel="stylesheet">
+    <link href="/css/auto-complete.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1716122395" rel="stylesheet">
+    <link href="/css/fonts.css?1716122395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1716122395" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1716122395" rel="stylesheet">
+    <link href="/css/theme-blue.css?1716122395" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1716122395" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1716122395" rel="stylesheet">
+    <link href="/css/print.css?1716122395" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1716122395" rel="stylesheet">
+    <script src="/js/variant.js?1716122395"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='https:\/\/cuttlefish-joe.github.io';
+      window.index_js_url="/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/what-is-interferometry/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">EMSC3033 Major Project: Seismic Interferometry</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">What Is Interferometry?</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.html" title="EMSC3033 Major Project: Seismic Interferometry (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/what-is-interferometry/seismic-vs-optical-interferometry/index.html" title="Overview (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="chapter">
+            <header class="headline">
+            </header>
+<div class="article-subheading">Chapter 1</div>
+
+<h1 id="what-is-interferometry">What Is Interferometry?</h1>
+
+<p>This section contains a general overview of the basic principles of interferometry, as well as a demonstration of it using an optical interferometer device. The key differences between this demonstration and the seismic interferometry discussed on the rest of this website are also outlined.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of What Is Interferometry?</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="overview">Overview</h1>
+
+<p>Interferometry, as a technique, refers to getting information from the interference between two recorded wave signals, normally generated from a single source event. Typically, interferometry is able to measure properties with much more precision than standard wave signal measurements from a single event.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> This is due to it relying on a comparison of phases between the two signals, rather than needing precise knowledge of the start and end forms of the signal (information sometimes referred to as &ldquo;statics&rdquo;).</p>
+<p><a href="#R-image-5f77224f654ca2b28da6a54564d9d8ba" class="lightbox-link"><img alt="interferometer" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/what-is-interferometry/seismic-vs-optical-interferometry/gif.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5f77224f654ca2b28da6a54564d9d8ba"><img alt="interferometer" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/what-is-interferometry/seismic-vs-optical-interferometry/gif.gif"></a>
+<em>(<a href="https://gifs.com/gif/interferometer-animation-WnXYQx)" rel="external" target="_blank">https://gifs.com/gif/interferometer-animation-WnXYQx)</a></em></p>
+<p>Two superimposed waves will interfere constructively when in phase, and destructively when out of phase. Many purpose-built interferometers will use this fact, and generate a single wave to be recorded at multiple receivers, so that the initial wavelength and phase are the same for all the detected signals. They can measure variations in intensity of the superimposed signals to find the phase difference, and ultimately the path difference (difference in distance travelled reaching one receiver compared to the other) between the receivers measuring the wave signals.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Other techniques might have a known path difference, and aim to find the travel-time difference for the two paths, thus finding the velocity of the wave signal in the investigated medium. Others still might compare the entire recorded wave signals, to determine other properties about the material between the receivers, through inverse modelling. Ultimately, interferometry is just a technique to be used to extract more information out of wave signals through comparison, than can be gotten by analysing a single signal alone.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>(<em>LIGO Caltech, 2020</em>)&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>(<em>Raja and Barron, 2016</em>)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="practical-example">Practical Example</h1>
+
+
+<div class="box notices cstyle info">
+  <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Info</div>
+  <div class="box-content">
+
+<p>This practical example aims to highlight how interfering two wave signals can amplify information regarding the difference in paths between the two signals. It uses the easy visualisation opportunities provided by working with visible light to demonstrate this. Here, the information is the difference in path length, but this does not have to be the case for interferometry, as discussed in the general overview.</p>
+</div>
+</div>
+<p>Michelson interferometers
+To understand the physical principles behind interferometry, waves must be recognised as objects with phases attached to them. A generic wave E at travelling in time t and direction x can be written mathematically as:</p>
+\[ E(x,t) = E_0 e^{i (kx - \omega t)} \]
+<p>Where $E_0$ serves as an initial amplitude, k as a spatial frequency, and $\omega$ as a temporal frequency. At a specific value for x and t (a specific location and time), this can be simplified to:</p>
+\[ E = E_0 e^{i \phi} \]
+<p>Where $\phi$ is known as the phase of the wave. This means, when comparing two waves, one of which travelled some additional distance/time compared to the other, the difference between the two waves can be notated as a phase difference; an additional $e^{i\phi}$ term in the expression of the longer-travelled wave.</p>
+<p><a href="#R-image-842f88f6db790567e0b4193c02ddc528" class="lightbox-link"><img alt="michelson" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/what-is-interferometry/practical-example/michelsondiagram.png?width=25.75rem" style=" height: auto; width: 25.75rem;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-842f88f6db790567e0b4193c02ddc528"><img alt="michelson" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/what-is-interferometry/practical-example/michelsondiagram.png?width=25.75rem"></a></p>
+<p>In a Michelson interferometer, an initial wave signal (laser beam) is generated at location A. This wave travels to the beamsplitter at B, where part of the wave is reflected and travels length $L_1$, while the rest of the wave is transmitted and travels length $L_2$. These distances are different, and so give the part of the wave that travelled that distance the phases $e^{i\phi_1}$ and $e^{i\phi_2}$ respectively. These wave signals are both reflected off of mirrors at $C_1$ and $C_2$, and are rejoined at the beamsplitter, where they will travel to the receiving surface at D. Here, the optical signals get projected as light upon the surface, and will create circular fringes of light and dark bands, where the two phases interfere constructively (the difference in distances travelled is $n\lambda$ for integer n and wavelength $\lambda$) and destructively (the difference in distances is $(n+\frac{1}{2})\lambda$), respectively. By creating directional disturbances, such as bumping the table closer to one path than the other, the path difference between the two beams can be briefly changed, which manifests as a change in the pattern of fringes appearing on the surface. Seeing a fringe appear (or disappear) indicates the difference in distance between the two paths has changed on the order of the wavelength of the light; on the order of hundreds of nanometres.</p>
+<p>Information about the reflectivity of the beamsplitter the signal travelled through can be found by analysing the intensity of the final output beam, though the equipment for doing this was not available for this example. Note that this process assumes a constant wavelength for the wave signal throughout the process. This assumption is held generally across different branches of interferometry.</p>
+<hr>
+<p>A slowed-down video of the change in fringe patterns upon pressing on the table the interferometer was set up on can be found <a href="https://www.youtube.com/watch?v=seaac7k1wW0" rel="external" target="_blank">here</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Another, showing the change from jumping up and down near the table can be found <a href="https://www.youtube.com/watch?v=3M5ApgLFbP8" rel="external" target="_blank">here</a>, and a third showing the change from walking around the table can be found <a href="https://www.youtube.com/watch?v=V_1KXxTp9K4" rel="external" target="_blank">here</a>. All three videos show changes to the fringing pattern as the interferometer paths are disturbed. These changes all appear oscillatory, showing the effect of the continued aftershock vibrations through the table on the interferometer distance setup. From this it can be seen that impulses near the source or receivers are able to disturb the travel of the wave signals, creating small changes that are amplified to a much greater precision than would be seen if only looking at one signal &ndash; only observing the reflected or transmitted wavelength, we would not be able to observe changes on the orders of hundreds of nanometres. The changes seen are coming only from the difference in path between the two wave signals, the actual initial state of the system (the initial fringe arrangements and intensity) don&rsquo;t factor into the understanding of the changes taking place.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Many thanks to ANU Physics technical officers Dr Mika Kohonen and Dr Dije Wang for their assistance in providing access to the equipment needed to build the optical interferometer.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="seismic-vs-optical-interferometry">Seismic vs Optical Interferometry</h1>
+
+<p>The most apparent difference between the optical interferometry demonstrated in this section and the seismic interferometry focussed on by the rest of this website is the type of wave being investigated; optical interferometry uses electromagnetic waves while seismic waves are mechanical/acoustic. While the optical waves can be easily visualised directly (making them good for demonstrations of the concept), the seismic waves must be recorded and processed for visualisation. Additionally, while electromagnetic waves can travel without a medium, the propagation of seismic waves is always tied to the medium being travelled through.</p>
+<p>The Michelson interferometer used in the demonstrative example, like seismic interferometry, uses a single source event to generate a wave signal, that is recorded at two separate receivers. However, while the Michelson interferometer uses the interference generated to measure the distance between the receivers, seismic interferometry typically treats this information as a given and instead uses the comparison of wave signals to determine the seismic velocity between the two receivers, or the obstacles between them that affect the wave propagation through inducing reflection. Therefore, while the demonstrative example shows how combining two wave signals can produce more information than is found from analysing the wave signals alone, it does not demonstrate collection of the type of data typically sought after by seismic interferometry.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1716122395" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1716122395" defer></script>
+    <script>
+      function useMathJax( config ){
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          tex: {
+            inlineMath:  [['\\(', '\\)'], ['$',  '$']],  
+            displayMath: [['\\[', '\\]'], ['$$', '$$']], 
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="/js/mathjax/tex-mml-chtml.js?1716122395"></script>
+    <script src="/js/theme.js?1716122395" defer></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seismic vs Optical Interferometry : Seismic Interferometry</title>
+    <link>https://cuttlefish-joe.github.io/what-is-interferometry/overview/index.html</link>
+    <description>The most apparent difference between the optical interferometry demonstrated in this section and the seismic interferometry focussed on by the rest of this website is the type of wave being investigated; optical interferometry uses electromagnetic waves while seismic waves are mechanical/acoustic. While the optical waves can be easily visualised directly (making them good for demonstrations of the concept), the seismic waves must be recorded and processed for visualisation. Additionally, while electromagnetic waves can travel without a medium, the propagation of seismic waves is always tied to the medium being travelled through.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cuttlefish-joe.github.io/what-is-interferometry/overview/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
